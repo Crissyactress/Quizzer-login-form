@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>KENYA AIRWAYS QUIZZER</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text">
+        <!-- <div class=""> -->
+        <span><i>QUIZZER</i></span>
+        <span>Thank you for joining QUIZZER</span>
+      <!-- </div> -->
+      <div class="round">
+        <span
+          >Answer questions correctly to get a chance to win Airport
+          goodies.</span
+        >
+     
+
+      <form id="quizzForm" class="parent">
+        <div class="inputElement">
+          <label id="name-label">Name</label>
+          <input placeholder="Name" id="name" type="text" required />
+        </div>
+        <div class="form-group">
+          <p>1. Is QUIZZER a free and opensource website?</p>
+          <select id="question1">
+            <option value="true">TRUE</option>
+            <option value="false">FALSE</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>2. Is QUIZZER available in all Airport portals in Kenya?</p>
+          <div>
+            <label
+              ><input type="checkbox" name="question2" value="true" />YES</label
+            >
+          </div>
+          <div>
+            <label
+              ><input type="checkbox" name="question2" value="false" />NO</label
+            >
+          </div>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+      </div>
+    </div>
+      </form>
+      <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
